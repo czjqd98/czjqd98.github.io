@@ -1,0 +1,406 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+}
+
+ul li {
+	list-style: none;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+.container,
+.row {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*导航*/
+.navbar {}
+
+.navbar .container-fluid {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.dropdown .dropdown-menu {
+	padding: 0;
+}
+
+.dropdown .dropdown-menu li a {
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+
+/*logo*/
+
+.logo {
+	padding: 0;
+}
+
+.logo .logo-box {
+	width: 140px;
+	background: -webkit-linear-gradient(left, #1c1a4c, #3177b9)
+}
+
+.logo-box span {
+	display: block;
+	color: #FFF;
+}
+
+.logo1 {
+	padding: 20px 10px;
+	background: #fff;
+	border-bottom-right-radius: 40px;
+}
+
+.logo2 {
+	height: 0;
+	background: -webkit-linear-gradient(left, #1c368c, #3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+
+.logo3 {
+	height: 50px;
+	background: -webkit-linear-gradient(left, #1c1a4c, #3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+}
+
+
+/*移动端logo*/
+
+.logo-m {
+	width: 100px;
+	margin: 15px 0 0 10px;
+}
+
+
+/*中间部分*/
+
+
+/*1.*/
+
+.main1 {
+	background: url(../img/ultrasound-l.jpg) no-repeat;
+	padding-top: 6%;
+	padding-bottom: 10%;
+	background-size: cover;
+	min-width: 960px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.main-text {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.main1 .main-text h2 {
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.main1 .main-text p {
+	font-size: 18px;
+	width: 380px;
+	line-height: 30px;
+}
+
+.main-text a {
+	display: block;
+	width: 120px;
+	padding: 8px 15px;
+	border-radius: 5px;
+	background-color: #1B6D85;
+	text-align: center;
+	color: #fff;
+}
+
+.main1-m {
+	margin-top: 51px;
+}
+
+.main1-m .main-text h2 {
+	margin-left: 5px;
+}
+
+.main1-m .main-text p {
+	font-size: 18px;
+	line-height: 30px;
+	margin-left: 5px;
+}
+
+.main1-m .main-text a {
+	margin-bottom: 20px;
+	margin-left: 5px;
+}
+
+
+/*2.*/
+
+.main2 {
+	background: url(../img/li-l.jpg) no-repeat;
+	padding-top: 6%;
+	padding-bottom: 10%;
+	background-size: cover;
+	min-width: 960px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.main-text1 {
+	max-width: 960px;
+	margin: 0 auto;
+	
+}
+
+.main2 .main-text1 h2 {
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.main2 .main-text1 p {
+	font-size: 18px;
+	width: 380px;
+	line-height: 30px;
+}
+
+.main-text1 a {
+	display: block;
+	width: 120px;
+	padding: 8px 15px;
+	border-radius: 5px;
+	background-color: rgba(9, 117, 117, 0.8);
+	text-align: center;
+	color: #fff;
+}
+
+.main2-m .main-text1 h2 {
+	margin-left: 5px;
+}
+
+.main2-m .main-text1 p {
+	font-size: 18px;
+	line-height: 30px;
+	margin-left: 5px;
+}
+
+.main2-m .main-text1 a {
+	margin-bottom: 20px;
+	margin-left: 5px;
+}
+
+
+/*3.*/
+
+.main3 {
+	background: url(../img/philips-watch-left-l.jpg) no-repeat;
+	padding-top: 6%;
+	padding-bottom: 10%;
+	background-size: cover;
+	min-width: 960px;
+	margin: 0 auto;
+	text-align: right;
+	color: #fff;
+}
+
+.main-text2 {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.main3 .main-text2 h2 {
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.main3 .main-text2 p {
+	font-size: 18px;
+	width: 380px;
+	line-height: 30px;
+}
+
+.main-text2 a {
+	float: right;
+	display: block;
+	width: 120px;
+	padding: 8px 15px;
+	border-radius: 5px;
+	background-color: rgba(9, 117, 117, 0.8);
+	text-align: center;
+	color: #fff;
+}
+
+.main3-m .main-text2 h2 {
+	margin-left: 5px;
+}
+
+.main3-m .main-text2 p {
+	font-size: 18px;
+	line-height: 30px;
+	margin-left: 5px;
+}
+
+.main3-m .main-text2 a {
+	float: none;
+	margin-bottom: 20px;
+	margin-left: 5px;
+}
+
+
+/*注册*/
+
+.reg {
+	width: 100%;
+	background: #efefef;
+}
+
+.reg li i {
+	color: #50ad0a;
+	line-height: 1.7;
+}
+
+.reg span {
+	display: block;
+	margin: 5px 0;
+}
+
+.reg input {
+	margin-bottom: 5px;
+}
+
+.reg input[type="submit"] {
+	display: block;
+}
+
+.club {
+	padding: 0;
+}
+
+.club-box {
+	background: url(../img/LM-MyPhilips-Banner.jpg) no-repeat;
+	padding-top: 10%;
+	padding-bottom: 48%;
+	background-size: 100%;
+}
+
+.club-box h2,
+.club-box h3 {
+	padding: 5px 10px;
+	color: #fff;
+}
+
+
+/*搜索*/
+
+.search {
+	background: #15a9d4;
+}
+
+.search-box {
+	max-width: 450px;
+	padding: 0 20px;
+}
+
+.search-box form {
+	position: relative;
+}
+
+.search-icon {
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+
+
+/*底部*/
+
+/*站点地图*/
+
+.siteMap {
+	background: #122B40;
+	color: #fff;
+}
+
+.siteMap h2 {
+	font-size: 24px;
+}
+
+.siteMap li a {
+	color: #fff;
+}
+
+
+/*版权*/
+
+.footer {
+	background: -webkit-linear-gradient(top, #022573, #035086);
+}
+.footer .weibo{
+	color: #15A9D4;
+	margin-top: 20px;
+}
+.footer .weibo img{
+	width: 30px;
+	display: block;
+}
+.footer .footer-logo{
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+.footer .weibo2{
+	color: #15A9D4;
+	margin-top: 50px;
+	max-width: 87px;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer .weibo2 img{
+	width: 30px;
+	display:inline-block;
+}
+.menus{
+	width: 195px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.copyrigt{
+	text-align: center;
+}
+
+.copyrigt ul{
+	padding-top: 30px;
+}
+
+.copyrigt li{
+	display: inline-block;
+	}
+.copyrigt li a{
+	color: #fff;padding: 0 5px;
+	border-right: 1px solid #fff;
+	}
+.copyrigt li:last-child a{
+	border: none;
+	}
+.copyrigt p{
+	color: #fff;
+	}
+
+
+

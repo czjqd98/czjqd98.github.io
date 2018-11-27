@@ -1,0 +1,263 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+}
+
+ul li {
+	list-style: none;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+.container,
+.row {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*导航*/
+.navbar {}
+.navbar .container-fluid {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.dropdown .dropdown-menu {
+	padding: 0;
+}
+
+.dropdown .dropdown-menu li a {
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #CCCCCC;
+}
+/*logo*/
+.logo {
+	padding: 0;
+}
+.logo .logo-box {
+	width: 140px;
+	background: -webkit-linear-gradient(left, #1c1a4c, #3177b9)
+}
+.logo-box span {
+	display: block;
+	color: #FFF;
+}
+.logo1 {
+	padding: 20px 10px;
+	background: #fff;
+	border-bottom-right-radius: 40px;
+}
+.logo2 {
+	height: 0;
+	background: -webkit-linear-gradient(left, #1c368c, #3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+.logo3 {
+	/*height: 50px;*/
+	background: -webkit-linear-gradient(left, #1c1a4c, #3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+}
+/*移动端logo*/
+
+.logo-m {
+	width: 100px;
+	margin: 15px 0 0 10px;
+}
+
+
+/*中间部分*/
+.carousel{
+	margin-top: 51px;
+}
+.carousel .item img{
+	width: 100%;
+}
+
+/*中间第二部分*/
+/*左边*/
+.main{
+	padding: 10px;
+}
+.left{
+}
+.left .nav a{
+	font-size: 18px;
+	font-weight: bold;
+	color: #022573;
+}
+.tab-pane{
+	border: 1px solid #ccc;
+	border-top: none;
+	padding: 10px;
+	padding-bottom: 0;
+}
+.tab-pane dl{
+	border-bottom: 1px dashed #CCCCCC;
+	padding-bottom: 10px;
+	overflow:hidden;
+}
+
+.tab-pane dl dt{
+	max-width: 200px;
+	float: left;
+	margin-right: 15px;
+}
+.tab-pane h2{
+	font-size: 16px;
+	max-width: calc(100% - 200px);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.left .tab-pane p{
+	color: #5E5E5E;
+	line-height: 1.7em;
+}
+.more a{
+	float: right;
+	display: block;
+	padding: 8px 15px;
+	border-radius: 5px;
+	background: #15A9D4;
+	text-align: center;
+	color: #fff;
+}
+.paging{
+	padding: 10px 0;
+}
+.paging ul li{
+	float: left;
+	margin:0 5px;
+	background-color: #EFEFEF;
+}
+.paging ul li a{
+	color: #022573;
+	padding: 0 10px;
+}
+.paging .active{
+	background: #022573;
+	}
+.paging .active a{
+	color: #fff;
+	text-decoration: none;
+	}
+/*右边*/
+.right h2{
+	font-size: 18px;
+	font-weight: bold;
+	color: #022573;
+}
+.listNews{
+	width: 300px;
+	box-shadow: 2px 2px 2px #ccc;
+	overflow: hidden;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.listNews dt{
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+}
+.listNews h2{
+	font-size: 16px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	}
+.listNews .more a{
+	float: right;
+	width: 100px;
+	padding: 5px 0px;
+	background: #15A9D4;
+	margin-top: 10px;
+	
+}	
+
+
+
+
+/*底部*/
+/*站点地图*/
+.siteMap {
+	background: #122B40;
+	color: #fff;
+}
+
+.siteMap h2 {
+	font-size: 24px;
+}
+
+.siteMap li a {
+	color: #fff;
+}
+/*版权*/
+.footer {
+	background: -webkit-linear-gradient(top, #022573, #035086);
+}
+.footer .weibo{
+	color: #15A9D4;
+	margin-top: 20px;
+}
+.footer .weibo img{
+	width: 30px;
+	display: block;
+}
+.footer .footer-logo{
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+.footer .weibo2{
+	color: #15A9D4;
+	margin-top: 50px;
+	max-width: 87px;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer .weibo2 img{
+	width: 30px;
+	display:inline-block;
+}
+.menus{
+	width: 195px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.copyrigt{
+	text-align: center;
+}
+
+.copyrigt ul{
+	padding-top: 30px;
+}
+
+.copyrigt li{
+	display: inline-block;
+	}
+.copyrigt li a{
+	color: #fff;
+	padding: 0 5px;
+	border-right: 1px solid #fff;
+	}
+.copyrigt li:last-child a{
+	border: none;
+	}
+.copyrigt p{
+	color: #fff;
+	}
